@@ -26,10 +26,12 @@ console.log(newStringOne.trim())
 
 const url=  "https://khushi.com/khuhsi%20rakholiya";
 
-console.log(url.replace('%20','-'));
+const nUrl=url.replace('%20', '-')
+console.log(nUrl);
 console.log(url.includes('sundar'))
 
-console.log(gameName.split('-'))
+console.log(nUrl.split(('-')));
+
 
 
 
