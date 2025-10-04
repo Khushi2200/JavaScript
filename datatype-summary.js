@@ -37,8 +37,7 @@ const myFunction = function(){
 
 
 
-
-// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // stck (primitve)   Heap (Non-primitive)
 
@@ -59,4 +58,5 @@ let userTwo = userOne
 userTwo.email="khushi123@gmail.com"
  
 console.log(userOne.email)
+console.log(userOne.upi);
 console.log(userTwo.email)
