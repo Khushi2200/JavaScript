@@ -23,7 +23,7 @@ let tot=myCreatedDate - myTimeStamp
 
 let newDate = new Date(6, 22, 2023)
 newDate.toLocaleString('default' , {
-    weekday: "long",
+    weekday: "long"
 })
 console.log(newDate);
 
